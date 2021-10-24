@@ -1,0 +1,164 @@
+﻿body{
+    margin:0px;
+    padding:0px;
+    background:black;
+    
+}
+/* navbar */
+img{
+    height:10%;
+    width:10%;
+    padding:0px 0px 0px 10%;
+    margin:0px;
+    float:left;
+}
+.navbar {
+    flex: auto;
+    
+}
+.main {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    flex: auto;
+    background-color: rgba(0,0,0,0.7);
+    height: 100px;
+}
+nav ul {
+    float: right;
+    list-style-type: none;
+    padding-right: 10%;
+    position: sticky;
+}
+nav li {
+    
+    line-height: 90px;
+    display: inline-block;
+    list-style: none;
+    padding:10px;
+    color:white;
+}
+li a {
+    text-decoration:none;
+}
+li a:hover{
+    color:green;
+}
+
+
+.menu a{
+    color:white;
+    letter-spacing:0.1rem;
+    display:block;
+}
+
+.greet {
+    padding: 10% 10% 0 40%;
+    right:800px;
+    background:purple;
+}
+.greet a{
+    font-size:60px;
+    font-weight:750;
+    color:white;
+    font-family:sans-serif;
+}
+.btn{
+    background-color:white;
+    color:black;
+    padding:15px 10px 15px 10px;
+    border:none;
+    font-size:15px;
+    border-radius:20px;
+    width:200px;
+    margin-bottom:150px;
+    margin-top:40px;
+    font-weight:700px;
+    
+}
+.btn:hover{
+    color:green;
+}
+.second{
+    background-color:white;
+    
+}
+h1 {
+    text-align: center;
+    color: black;
+    padding: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.special{
+    display:inline-flex;
+    text-align:center;
+}
+h2{
+    padding:10px 10px 100px 100px;
+    font-family:sans-serif;
+}
+.third {
+    
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(purple,indigo);
+    padding:200px 0px 200px 0px;
+}
+.fourth{
+    color:black;
+   font-size:xx-large;
+   background:white;
+   align-content:center;
+   margin:auto;
+   padding:40px 0 30px 10px;
+   text-align: center;
+}
+.fourth a{
+   font-size: 50px;
+}
+table, th, td {
+    border: 1px solid #b2b2b2;
+    align-content: center;
+    border-collapse: collapse;
+    font-size: 16px;
+    font: bold;
+    font-family:sans-serif;
+}
+th, td {
+    padding: 30px 30px 30px 20px;
+    text-align: left;
+    
+}
+table {
+    width: 80%;
+    margin: 5% 0% 10% 10%;
+}
+tr {
+    background-color: #f2f2f2;
+   font:bold;
+}
+footer{
+    
+    color: white;
+    padding:10px;
+    flex:auto;
+    
+}
+footer .list{
+    float:right;
+    padding:5%;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li:hover{
+    color:green;
+}
